@@ -6,9 +6,13 @@ This project compares four BERT fine-tuning methods for news topic classificatio
 The main contribution is an Automatic LoRA Placement Selection Module, which evaluates eight LoRA configurations and selects the best one based on validation Macro-F1.
 ## Dataset and Methods
 •	Dataset: AG News (4 news categories)
+
 •	Base model: bert-base-uncased
+
 •	Placement search: 8 candidates using QV/QKV projections and different encoder layer groups
+
 •	Final comparison: 4 methods × 5 random seeds
+
 •	Evaluation: Accuracy and Macro-F1
 ## Results
 | Method | Test Macro-F1 (Mean ± SD) | Trainable Parameters |
