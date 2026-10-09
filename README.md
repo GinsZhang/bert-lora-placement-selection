@@ -1,6 +1,6 @@
 # bert-lora-placement-selection
 A comparative study of BERT fine-tuning methods with automatic LoRA placement selection for news topic classification.
-BERT Fine-Tuning with Automatic LoRA Placement Selection
+
 ## Overview
 This project compares four BERT fine-tuning methods for news topic classification: Frozen BERT, Full Fine-Tuning, Standard LoRA, and Automatically Selected LoRA.
 The main contribution is an Automatic LoRA Placement Selection Module, which evaluates eight LoRA configurations and selects the best one based on validation Macro-F1.
@@ -31,5 +31,4 @@ pip install -r requirements.txt
 
 Open the Jupyter Notebook and run the cells in order. The full experiment includes eight placement-search runs and twenty final comparison runs, which may require substantial GPU time.
 
-Project
 AIML339 — Machine Learning Project.
