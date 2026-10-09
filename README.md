@@ -17,6 +17,7 @@ The main contribution is an Automatic LoRA Placement Selection Module, which eva
 | Full Fine-Tuning | 0.9231 ± 0.0019 | 109,485,316 |
 | Standard LoRA | 0.9218 ± 0.0024 | 297,988 |
 | Selected LoRA | 0.9221 ± 0.0008 | 445,444 |
+
 The automatic search selected QKV_all. Selected LoRA achieved performance close to Full Fine-Tuning while updating approximately 0.41% of the model parameters. Its improvement over Standard LoRA was small.
 ## How to Run
 Install the dependencies:
