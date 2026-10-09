@@ -1,0 +1,11 @@
+torch
+transformers==4.57.6
+datasets
+peft
+accelerate
+scikit-learn
+pandas
+numpy
+matplotlib
+jupyter
+safetensors==0.8.0
