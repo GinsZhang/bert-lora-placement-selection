@@ -24,6 +24,8 @@ Install the dependencies:
 ```bash
 pip install -r requirements.txt
 ```
+
 Open the Jupyter Notebook and run the cells in order. The full experiment includes eight placement-search runs and twenty final comparison runs, which may require substantial GPU time.
+
 Project
 AIML339 — Machine Learning Project.
